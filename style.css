@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Heebo";
-  src: url(fonts/Heebo-Bold.woff2) format("woff2");
+  src: url(../fonts/Heebo-Bold.woff2) format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Heebo";
-  src: url(fonts/Heebo-Light.woff2) format("woff2");
+  src: url(../fonts/Heebo-Light.woff2) format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Yantramanav";
-  src: url(fonts/Yantramanav-Bold.woff2) format("woff2");
+  src: url(../fonts/Yantramanav-Bold.woff2) format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -370,7 +370,7 @@ select.input:invalid {
   right: calc(100% + 8px);
   width: 26px;
   aspect-ratio: 1;
-  background: url(./icons/plus.svg) center no-repeat;
+  background: url(.././icons/plus.svg) center no-repeat;
 }
 
 .backdrop-title.centered::after {
@@ -428,7 +428,7 @@ select.input:invalid {
   right: 0;
   height: 100%;
   aspect-ratio: 1;
-  background: url(./icons/svg--button-arrow.svg) center/70% no-repeat;
+  background: url(.././icons/svg--button-arrow.svg) center/70% no-repeat;
   border: var(--border);
   border-radius: 50%;
 }
@@ -538,7 +538,7 @@ select.input:invalid {
   width: clamp(60px, 10.1vw, 194px);
   aspect-ratio: 1;
   margin-right: 30px;
-  background: url(./icons/arrow-banner.svg) center/contain no-repeat;
+  background: url(.././icons/arrow-banner.svg) center/contain no-repeat;
 }
 
 .banner-title {
@@ -623,7 +623,7 @@ select.input:invalid {
   align-items: center;
   row-gap: 32px;
   padding-top: var(--trainingTypesItemBgIconSize);
-  background: url(icons/transparent-arrow-bottom-left.svg) 100% 0 /
+  background: url(../icons/transparent-arrow-bottom-left.svg) 100% 0 /
     var(--trainingTypesItemBgIconSize) no-repeat;
 }
 
@@ -640,7 +640,7 @@ select.input:invalid {
   justify-content: center;
   align-items: center;
   padding: 150px 30px;
-  background: url(images/joinus-bg.png) center/cover no-repeat
+  background: url(../images/joinus-bg.png) center/cover no-repeat
     var(--color-dark-alternate);
 }
 
@@ -674,7 +674,7 @@ select.input:invalid {
   content: "";
   width: 26px;
   aspect-ratio: 1;
-  background: url(icons/svg--button-arrow.svg) center/contain no-repeat;
+  background: url(../icons/svg--button-arrow.svg) center/contain no-repeat;
   transition-duration: var(--transition-duration);
 }
 
@@ -705,7 +705,7 @@ select.input:invalid {
   height: 0.7em;
   aspect-ratio: 1;
   margin-left: 0.14em;
-  background: url(icons/arrow-banner.svg) center/contain no-repeat;
+  background: url(../icons/arrow-banner.svg) center/contain no-repeat;
   scale: 1 -1;
 }
 
@@ -978,7 +978,7 @@ select.input:invalid {
   height: 0.74em;
   aspect-ratio: 1;
   margin-left: 0.5em;
-  background: url(icons/arrow-banner.svg) center/contain no-repeat;
+  background: url(../icons/arrow-banner.svg) center/contain no-repeat;
   scale: -1 1;
 }
 
@@ -992,7 +992,7 @@ select.input:invalid {
   right: 0;
   height: 100%;
   aspect-ratio: 1;
-  background: url(http://127.0.0.1:5500/icons/svg--button-arrow.svg)
+  background: url(../http://127.0.0.1:5500/icons/svg--button-arrow.svg)
     center/contain no-repeat;
   border: var(--border);
   border-radius: 50%;
